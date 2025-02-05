@@ -6,8 +6,9 @@ import Navbar from "./components/Navbar";
 import MahaMumbai from "./pages/MahaMumbai";
 import AboutUsPage from './pages/AboutUsPage';
 import ProjectsPage from './pages/ProjectsPage';
-import ServicesPage from './pages/ServicesPage';
+import ServicePage from './pages/ServicePage';
 import ScrollToTop from './components/ScrollToTop';
+import ContactusPage from './pages/ContactusPage';
 
 export default function App() {
   return (
@@ -18,8 +19,9 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/project" element={<ProjectsPage />} />
-        <Route path="/service" element={<ServicesPage />} />
+        <Route path="/service" element={<ServicePage />} />
         <Route path="/mahamumbai" element={<MahaMumbai />} />
+        <Route path="/contactus" element={<ContactusPage />} />
       </Routes>
     <Footer/>
     </div>
